@@ -1,0 +1,13 @@
+NAME:
+    please - Application generator
+
+USAGE:
+    please [command] [command options]
+
+COMMANDS:
+    gen, generate - generates a base structure of an application
+    add           - adds additional functionality
+    help, h       - shows information about generator
+
+COMMAND OPTIONS:
+    help, h       - shows information about command

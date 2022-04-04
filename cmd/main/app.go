@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"os"
+	"please_generator/internal/handler"
+)
 
 func main() {
-	fmt.Println("Hello World!")
+	args := os.Args[1:]
+
+	handler.CheckForHelp(args)
+
 }
